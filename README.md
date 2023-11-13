@@ -1,7 +1,6 @@
 # Go Swag Front End Technical Assessment
 
-Before starting the assessment ensure you have created an Angular project and loaded in a CSS library you are familiar
-with.
+Before starting the assessment ensure you have created an Angular project and loaded in a CSS library of your choice ( eg Bulma / Bootstrap / Tailwind)
 
 The assessment should last around an hour, don't include Angular set up time in this, you should spend around 30 minutes
 on each task, design and implementation.
@@ -13,6 +12,8 @@ For the design task you will require a free Figma account.
 You are to implement one of the components either `Sidebar navigation`, `Main` or `Side panel`.
 
 View the design at this link: https://www.figma.com/file/Cdy8JweRbP8kKFzhvIUUKL/Front-end-Task?type=design&mode=design
+
+For the purposes of the exercise you do not need to implement any responsive design for mobiles.
 
 ## Implementation
 
