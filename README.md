@@ -2,22 +2,26 @@
 
 Before starting the assessment ensure you have created an Angular project and loaded in a CSS library of your choice ( eg Bulma / Bootstrap / Tailwind)
 
-The assessment should last around an hour, don't include Angular set up time in this, you should spend around 30 minutes
-on each task, design and implementation.
+- Your solution should use the latest version of Angular.
+- Accompany your solution with README explaining any design decisions or shortcuts taken.
 
 ## Design
 
 For the design task you will require a free Figma account.
 
-You are to implement one of the components either `Sidebar navigation`, `Main` or `Side panel`.
+You are to implement the `Sidebar navigation` component.
 
 View the design at this link: https://www.figma.com/file/Cdy8JweRbP8kKFzhvIUUKL/Front-end-Task?type=design&mode=design
 
-For the purposes of the exercise you do not need to implement any responsive design for mobiles.
+For the purposes of the exercise you do not need to implement any responsive design for mobiles. 
+
+You should try and replicate the design as faithfully as possible this is the evaluation criteria for this task. 
+
+You are free to choose a CSS library you are comfortable with.
 
 ## Implementation
 
-For this section do not worry about CSS / Design elements focus on the technical implementation details.
+For this section do not worry about CSS / Design elements focus on the technical implementation details we 
 
 ### Profile Page
 
@@ -26,7 +30,7 @@ You are required to build a profile page using Angular that integrates with thre
 #### Requirements
 
 Create a profile page with the following components and features. Each endpoint should have a corresponding loading
-spinner to indicate when data is being fetched.There is an example wire frame in the `images` directory.
+spinner to indicate when data is being fetched. There is an example wire frame in the `images` directory.
 
 Profile Information:
 
@@ -34,7 +38,7 @@ Profile Information:
 - Posts: Display a list of user posts from https://jsonplaceholder.typicode.com/users/1/posts
 - Albums: Display a list of user albums obtained from https://jsonplaceholder.typicode.com/users/1/albums
 
-If the endpoint is unavailable there is example data in the `mock_data` directory.
+If the endpoint is unavailable there is example data in the `mock-data` directory.
 
 ### Login Page
 
@@ -61,5 +65,3 @@ code 200).
 
 Error Handling: Display an error message to the user if the server response indicates an error (e.g., status code 4xx or
 5xx).
-
-Clear Form: Clear the form fields after a successful submission.
